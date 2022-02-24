@@ -41,9 +41,15 @@ export const sidebar: SidebarConfig = {
   '/leetcode/': [
     {
       type: 'group',
-      text: '範例頁面',
+      text: 'Leetcode',
       link: '',
       children: ['Roman2intege'],
+    },
+    {
+      type: 'group',
+      text: 'Romna1',
+      link: '',
+      children: ['Roman2intege1'],
     },
   ],
 };
