@@ -23,7 +23,7 @@ export const config: UserConfig = {
 ## 標籤區塊
 
 :::: code-group
-::: code-group-item TS
+::: code-group-item c++
 
 ```ts
 const user: object = {}

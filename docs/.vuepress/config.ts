@@ -7,11 +7,11 @@ const { path } = require('@vuepress/utils');
 
 export default defineUserConfig<MixThemeConfig, ViteBundlerOptions>({
   // Site Config
-  base: '/vuepress-mix-template/',
+  base: '/note/',
   lang: 'zh-TW',
-  title: 'VuePress Mix Template',
+  title: 'note',
   description:
-    'Template repository for quickly building note site with VuePress and Mix Theme.',
+    'Leetcode',
 
   // Header
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
@@ -20,7 +20,7 @@ export default defineUserConfig<MixThemeConfig, ViteBundlerOptions>({
   theme: 'vuepress-theme-mix',
   themeConfig: {
     logo: '/images/logo.png',
-    title: 'VuePress Mix Template',
+    title: 'note',
 
     navbar: navbar,
     sidebar: sidebar,

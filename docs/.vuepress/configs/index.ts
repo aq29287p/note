@@ -7,7 +7,7 @@ export const navbar: NavbarConfig = [
   },
   {
     text: '頁面',
-    link: '/example/',
+    link: '/leetcode/',
   },
   {
     text: '群組',
@@ -36,6 +36,14 @@ export const sidebar: SidebarConfig = {
       text: '範例頁面',
       link: '',
       children: ['', 'code-block'],
+    },
+  ],
+  '/leetcode/': [
+    {
+      type: 'group',
+      text: '範例頁面',
+      link: '',
+      children: ['Roman2intege'],
     },
   ],
 };
