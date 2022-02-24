@@ -24,6 +24,8 @@ export default defineUserConfig<MixThemeConfig, ViteBundlerOptions>({
 
     navbar: navbar,
     sidebar: sidebar,
+    collapsible: true, // enable,
+    collapsed: true, // it's collapsed by default
   },
 
   // Markdown Extends
