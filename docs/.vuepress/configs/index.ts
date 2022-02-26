@@ -43,14 +43,14 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'Leetcode_easy',
       link: '',
-      children: ['13','205','217'],
+      children: ['13','205','217','242'],
 
     },
     {
       type: 'group',
       text: 'Linked list',
       link: '',
-      children: ['21','141','160'],
+      children: ['21','141','143','160'],
 
     }
   ],
