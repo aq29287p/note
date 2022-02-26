@@ -50,7 +50,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'Linked list',
       link: '',
-      children: ['21'],
+      children: ['21','141','160'],
 
     }
   ],
