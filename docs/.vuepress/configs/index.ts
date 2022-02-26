@@ -43,7 +43,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'Leetcode_easy',
       link: '',
-      children: ['13'],
+      children: ['13','205','217'],
 
     },
     {
