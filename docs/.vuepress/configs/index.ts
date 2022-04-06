@@ -57,7 +57,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'Sliding windows',
       link: '',
-      children: ['643'],
+      children: ['643','438','209'],
 
     }
   ],
