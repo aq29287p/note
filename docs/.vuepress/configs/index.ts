@@ -66,6 +66,13 @@ export const sidebar: SidebarConfig = {
       link: '',
       children: ['104','637','111','286','752'],
 
+    },
+    {
+      type: 'group',
+      text: 'XOR',
+      link: '',
+      children: [],
+
     }
   ],
 };
