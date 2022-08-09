@@ -71,7 +71,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'XOR',
       link: '',
-      children: ['136','137'],
+      children: ['136','137','1009'],
 
     }
   ],
