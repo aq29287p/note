@@ -73,6 +73,12 @@ export const sidebar: SidebarConfig = {
       link: '',
       children: ['136','137','1009'],
 
+    },
+    {
+      type: 'group',
+      text: 'Binary Search',
+      link: '',
+      children: ['704','35'],
     }
   ],
 };
