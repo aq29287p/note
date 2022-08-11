@@ -64,7 +64,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'BFS',
       link: '',
-      children: ['104','637','111','286','752'],
+      children: ['103','102','104','637','111','286','752'],
 
     },
     {
@@ -78,7 +78,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'Binary Search',
       link: '',
-      children: ['704','35'],
+      children: ['704','35','744'],
     }
   ],
 };
