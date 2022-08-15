@@ -64,7 +64,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'BFS',
       link: '',
-      children: ['103','102','104','637','111','286','752'],
+      children: ['103','102','104','637','111','286','752','116'],
 
     },
     {
