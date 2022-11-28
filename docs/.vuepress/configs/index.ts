@@ -81,7 +81,7 @@ export const sidebar: SidebarConfig = {
       children: ['704','35','744'],
     }
   ],
-  '/coderbytes/': [
+  '/Coderbytes/': [
     {
       type: 'group',
       text: 'Coderbytes',
