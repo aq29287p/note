@@ -79,16 +79,14 @@ export const sidebar: SidebarConfig = {
       text: 'Binary Search',
       link: '',
       children: ['704','35','744'],
-    }
-  ],
-  '/Coderbytes/': [
+    },
     {
       type: 'group',
       text: 'Coderbytes',
       link: '',
-      children: ['reverse string' ],
+      children: ['reverse string','if_Palindrome','sub_array_sum' ],
     },
-  ],
+  ]
 };
 
 export const tags: String[] = [
