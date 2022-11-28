@@ -26,11 +26,9 @@ string ArrayChallenge(int arr[], int arrLength) {
         mp[0] = 1;
         int count = 0, pre = 0;
         for (int i=0;i<arrLength;i++) {
-            int x=arr[i];
-            if(x==k) continue;
-            pre += x;
-            if (mp.find(pre - k) != mp.end()) {
-                count += mp[pre - k];
+            if(arr[i]==k) continue;
+            pre += arr[i];
+            if (mp.count(pre - k)) {
                 return "true";
             }
             mp[pre]++;
@@ -42,7 +40,7 @@ string ArrayChallenge(int arr[], int arrLength) {
 ```
 :::
 ### 分析
-- 時間複雜度：$\mathcal{O}(n^{2})$
+- 時間複雜度：$\mathcal{O}(n)$
 - 空間複雜度：$\mathcal{O}(1)$  
 ::: code-group-item c++
 ``` cpp
@@ -65,20 +63,6 @@ string ArrayChallenge(int arr[], int arrLength) {
 ::: code-group-item python
 
 ``` python
-int subarraySum(vector<int>& nums, int k) {
-        unordered_map<int,int>umap={{0,1}};  //初始值根据题意进行改变
-        int ans=0,sum=0;
-
-        for(auto& a:nums){
-            sum+=a;
-            int cur=sum-k;    //cur值根据题意进行改变
-            if(umap.count(cur)){
-                ans+=umap[cur];
-            }
-            umap[sum]++;  //umap[cur或者sum]根据题意改变
-        }
-    return ans;
-    }
    
 ```
 ::::

@@ -90,7 +90,7 @@ export const sidebar: SidebarConfig = {
       type: 'group',
       text: 'Coderbytes',
       link: '',
-      children: ['reverse string','if_Palindrome','sub_array_sum' ],
+      children: ['reverse_string','if_Palindrome','sub_array_sum','BracketMatcher','stock_picker','TreeConstructor' ],
     },
   ]
 };
