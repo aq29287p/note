@@ -41,6 +41,12 @@ export const sidebar: SidebarConfig = {
   '/leetcode/': [
     {
       type: 'group',
+      text: 'Template',
+      link: '',
+      children: ['template'],
+    },
+    {
+      type: 'group',
       text: 'Leetcode_easy',
       link: '',
       children: ['13','205','217','242'],
