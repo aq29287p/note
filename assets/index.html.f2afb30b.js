@@ -1,0 +1,1 @@
+const t={key:"v-74bc627b",path:"/about/",title:"\u95DC\u65BC",lang:"zh-TW",frontmatter:{title:"\u95DC\u65BC"},excerpt:"",headers:[{level:2,title:"\u95DC\u65BC",slug:"\u95DC\u65BC",children:[]}],git:{updatedTime:1669641356e3,contributors:[{name:"I-Chun Hsu",email:"a13579230@gmail.com",commits:1}]},filePathRelative:"about/README.md"};export{t as data};

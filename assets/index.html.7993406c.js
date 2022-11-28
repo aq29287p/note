@@ -1,0 +1,1 @@
+const e={key:"v-31987621",path:"/leetcode/",title:"",lang:"zh-TW",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1669641356e3,contributors:[{name:"I-Chun Hsu",email:"a13579230@gmail.com",commits:1}]},filePathRelative:"leetcode/README.md"};export{e as data};
