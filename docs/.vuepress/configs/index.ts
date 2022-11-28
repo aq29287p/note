@@ -81,6 +81,14 @@ export const sidebar: SidebarConfig = {
       children: ['704','35','744'],
     }
   ],
+  '/coderbytes/': [
+    {
+      type: 'group',
+      text: 'Coderbytes',
+      link: '',
+      children: ['reverse string' ],
+    },
+  ],
 };
 
 export const tags: String[] = [
